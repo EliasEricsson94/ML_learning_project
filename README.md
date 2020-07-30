@@ -20,7 +20,8 @@ The final model is a neural network with three non-linear relu layers, containin
 Training was done with 150 epochs, adam as optimizer, mse as lossfunction and hyperparameters were left untouched. 
 More about the model can be seen in the codes, even without running them. 
 
-The model predicts the continuation of the signals well. In the series data where RLS did a good job of predicting, the ML model had even better values. 
+The model predicts the continuation of the signals well. Result plots for each patient are displayed in the code without running it. 
+In the series data where RLS did a good job of predicting, the ML model had even better values. 
 In the data which was more difficult to predict the RLS filter had better values than the ML model. 
 There isn't a linear cut-off around a metric where the ML or the RLS does better, instead it seems to have to do with how the signal is structured. 
 
