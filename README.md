@@ -1,15 +1,15 @@
 # ML_learning_project
 
 Introduction:<br/>
-In this project a machine learning model was created, trained and evaluated a to predict ECG signals. 
+In this project a machine learning model was created, trained and evaluated for predicting ECG signals. 
 The intended goal is to learn about machine learning and neural networks and to gain experience with TensorFlow. 
 
-The data is from a part of a challange in which ECG data from patients was to be predicted if on of multiple connected electrodes stopped functioning. 
+The data comes from a part of a challenge in which ECG data from patients were to be predicted if one of multiple connected electrodes stopped functioning. 
 The presented challenge was about much more and isn't directly relevant to this project. Challenge is linked below.
 
 Background:<br/>
 Two years ago I worked with the same data and created recursive MLS & RLS filters. Each patient has three electrodes monitoring signals to their heart for 10 minutes.
-One of the electrodes are removed after 9.5 minutes and the goal is to reconstruct the missing 30 seconds by using only the other two electrode signals. 
+One of the electrodes are removed after 9.5 minutes and the goal is to reconstruct the missing 30 seconds by only using the other two electrode signals. 
 The challenge asked for two evalution parameters called Q1 and Q2. They are functions alike MSE and all we need to know is that they go from zero to one with one being the best score.
 More about the Q1 and Q2 functions can be found on the challenge homepage.
 
